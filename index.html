@@ -7,25 +7,42 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="main.css">
 
-    <title>Hello, world!</title>
+    <title>HW2-Falter</title>
   </head>
   <body>
     <header>
-      <h1>Here's my bootstrap image grid!</h1>
+      <h1 class="text-center text-uppercase text-info">Here's my bootstrap image grid!</h1>
     </header>
 
-    <main>
-        <img src="hw2-image1.png" alt="first image">
-        <img src="hw2-image2.png" alt="second image">
-        <img src="hw2-image3.png" alt="third image">
-        <img src="hw2-image4.png" alt="fourth image">
-        <img src="hw2-image5.png" alt="fifth image">
-        <img src="hw2-image6.png" alt="sixth image">
-        <img src="hw2-image7.png" alt="seventh image">
-        <img src="hw2-image8.png" alt="eighth image">
-        <img src="hw2-image9.png" alt="ninth image">
-    </main>
+    <div class="container">
+
+        <div class="row justify-content-center row-cols-1 row-cols-sm-3">
+
+           <div class="col">
+            <img class="shadow p-3 mb-2" src="img/hw2-image1.png" title="bright building with windows" alt="bright building with windows">
+            <img class="shadow p-3 mb-2" src="img/hw2-image2.png" tiel="cupcakes" alt="cupcakes">
+            <img class="shadow p-3 mb-2" src="img/hw2-image7.png" title="tropical beach with boats" alt="tropical beach with boats">
+           </div>
+           <div class="col">
+            <img class="shadow p-3 mb-3" src="img/hw2-image6.png" tile="headphones"alt="headphones">
+            <img class="shadow p-3 mb-3" src="img/hw2-image5.png" title="Tall brown building with windows"alt="Tall brown building with windows">
+            <img class="shadow p-3 mb-3" src="img/hw2-image4.png" title="tropical beach with blue water" alt="tropical beach with blue water">
+           </div>
+
+           <div class="col">
+            <img class="shadow p-3 mb-3" src="img/hw2-image8.png" title="girl in front of graffiti wall" alt="girl in front of graffiti wall">
+            <img class="shadow p-3 mb-4" src="img/hw2-image3.png" title="girl walking in front of graffiti wall"alt="girl walking in front of graffiti wall">
+            <img class="shadow p-3 mb-3" src="img/hw2-image9.png" title="tropical beach coral reef" alt="tropical beach coral reef">
+           </div>
+        </div>   
+       </div>
+
+       <div class="alert alert-info" role="alert">
+        How cool is this image grid?
+       </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
